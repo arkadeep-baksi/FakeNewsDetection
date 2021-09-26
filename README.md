@@ -27,7 +27,7 @@ With CUDA
 To install PyTorch via pip, and do have a CUDA-capable system, in the above selector, choose OS: Windows, Package: Pip and the CUDA version suited to your machine. Often, the latest CUDA version is better. Then, run the command that is presented to you.
 
 ### 3: Install lxmert required libraries: 
-https://github.com/chuanqichen/FakeNewsDetection/tree/main/lxmert
+https://github.com/arkadeep-baksi/FakeNewsDetection/tree/main/lxmert
 
 ### 4: Install transformer
 pip install transformers==3.0.0  --trusted-host  files.pythonhosted.org 
@@ -54,11 +54,8 @@ Kai Nakamura, Sharon Levy, and William Yang Wang. 2020. r/Fakeddit: A New Multim
 
 Website: https://fakeddit.netlify.app/
 
-Codalab Competition: https://competitions.codalab.org/competitions/25337
-
 Paper: https://arxiv.org/abs/1911.03854
 
-Our lab: http://nlp.cs.ucsb.edu/index.html
 
 
 ### Getting Started
@@ -71,39 +68,13 @@ Please read the `Usage` section. It is important.
 
 Please let us know if you encounter any problems by opening an issue or by directly contacting us.
 
-### Installation
 
-#### Download text and metadata
-Please read the USAGE section before using or downloading. 
-Download the v2.0 dataset from [here](https://drive.google.com/drive/folders/1jU7qgDqU1je9Y0PMKJ_f31yXRo5uWGFm?usp=sharing) 
-
-#### Download image data 
-
-**Option 1: (RECOMMENDED)**
-Download the images [here](https://drive.google.com/file/d/1cjY6HsHaSZuLVHywIxD5xQqng33J5S2b/view?usp=sharing).
-
-**Option 2:**
-The `*.tsv` dataset files have an `image_url` column which contain the image urls. You can use the URLs to download the images.
-
-For convenience, we have provided a script which will download the images for you. Please follow the instructions if you would like to use the attached script.
 
 Fork or clone this repository and install required python libraries
 
-```
-$ git clone https://github.com/entitize/Fakeddit
-$ cd Fakeddit
-$ pip install -r requirements.txt
-```
 Copy `image_downloader.py` to the same directory/folder as where you downloaded the tsv files. 
 
 Run `image_downloader.py`  in the new directory/folder
-
-```
-$ python image_downloader.py file_name
-```
-
-#### Download comment data
-Download the comment data from [here](https://drive.google.com/drive/folders/150sL4SNi5zFK8nmllv5prWbn0LyvLzvo?usp=sharing)
 
 ### Usage
 
